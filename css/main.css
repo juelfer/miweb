@@ -97,9 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
+nav ul li{
+    list-style: none;
+    display: inline;
+    float:left;
+}
 
 
 
