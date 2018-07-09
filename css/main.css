@@ -97,19 +97,42 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header h1 {
+    font-family: 'Play', sans-serif;
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+
 nav ul li{
     list-style: none;
     display: inline;
-    float:left;
+    float: left;
 }
 
 
+li {
+    font-family: 'Titillium Web', sans-serif;
+}
 
+div h5 {
+    font-family: 'Play', sans-serif;
+    color: cornflowerblue;
+}
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    text-align: center;
+}
 
-
-
-
+footer a{
+    text-decoration: none;
+}
 
 
 
