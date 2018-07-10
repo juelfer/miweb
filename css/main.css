@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: black;
+}
+
 header h1 {
     font-family: 'Orbitron', sans-serif;
     color: darkgray;
@@ -149,35 +153,42 @@ a img {
 #formacion {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(255,255,255,0.50);
+    width: 20%;
 }
 
 #lenguajes {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(255,255,255,0.50);
+    width: 20%;
 }
 
 #redes {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(255,255,255,0.50);
+    width: 20%;
 }
 
 #otros {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(255,255,255,0.50);
+    width: 20%;
 }
 
 
 ul {
     list-style: none;
+    margin-left: 15em;
+    margin-right: 15em;
 }
 
 li {
     font-family: 'Titillium Web', sans-serif;
     font-size:1.2em;
+    color: gainsboro;
 }
 
 div h5 {
