@@ -16,6 +16,7 @@ html {
     line-height: 1.4;
 }
 
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -86,7 +87,7 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
+.browseºrupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -99,9 +100,9 @@ textarea {
 
 header h1 {
     font-family: 'Orbitron', sans-serif;
-    color: blue;
+    color: darkgray;
     text-align: center;
-    font-size: 60px;
+    font-size: 4em;
 }
 
 a img {
@@ -145,17 +146,44 @@ a img {
     float:left;
 }
 
+#formacion {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+}
+
+#lenguajes {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+}
+
+#redes {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+}
+
+#otros {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.50);
+}
+
+
 ul {
     list-style: none;
 }
 
 li {
     font-family: 'Titillium Web', sans-serif;
+    font-size:1.2em;
 }
 
 div h5 {
     font-family: 'Play', sans-serif;
-    color: cornflowerblue;
+    font-size: 1.5em;
+    color: gainsboro;
 }
 
 #collapseTwo ul {
@@ -172,8 +200,8 @@ footer{
     padding-bottom: 6px;
     padding-top: 3px;
     text-align: center;
-    background-color: blue;
-    color: lightgray;
+    background-color: rgba(0,0,0,0.50);
+    color: gainsboro;
 }
 
 footer a{
