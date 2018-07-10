@@ -104,6 +104,10 @@ header h1 {
     font-size: 60px;
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     font-family: 'Titillium Web', sans-serif;
 }
@@ -111,6 +115,12 @@ li {
 div h5 {
     font-family: 'Play', sans-serif;
     color: cornflowerblue;
+}
+
+#collapseTwo ul {
+    column-count:2;
+    list-style: none;
+    text-align: justify;
 }
 
 footer{
@@ -127,6 +137,12 @@ footer{
 
 footer a{
     text-decoration: none;
+    color: goldenrod;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: goldenrod;
 }
 
 /* ==========================================================================
