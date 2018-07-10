@@ -98,18 +98,11 @@ textarea {
    ========================================================================== */
 
 header h1 {
-    font-family: 'Play', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: blue;
     text-align: center;
     font-size: 60px;
 }
-
-nav ul li{
-    list-style: none;
-    display: inline;
-    float: left;
-}
-
 
 li {
     font-family: 'Titillium Web', sans-serif;
@@ -128,15 +121,13 @@ footer{
     padding-bottom: 6px;
     padding-top: 3px;
     text-align: center;
+    background-color: blue;
+    color: lightgray;
 }
 
 footer a{
     text-decoration: none;
 }
-
-
-
-
 
 /* ==========================================================================
    Helper classes
