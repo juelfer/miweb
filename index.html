@@ -12,37 +12,84 @@
     <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-   
+
 <header>
-  <h1>Juan Elías Fernández</h1>
-   
-<!--Iconos de redes sociales y correo-->
-    <div class="container-fluid" id="botones">
-        <div class="container" id="facebook">
-            <a href="https://www.facebook.com/juanelias.fernandezfabra" target="_blank"><img src="img/facebook.png" alt="Facebook" title="Facebook"></a>
+<!--Nombre-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="d-none d-sm-block" id="nombreGrande">Juan Elías Fernández</h1>
+                <h1 class="d-block d-sm-none" id="nombreMovil">Juan Elías Fernández</h1>
+        
+            </div>
         </div>
-        <div class="container" id="twitter">
-            <a href="https://twitter.com/juaneliasfdez" target="_blank"><img src="img/twitter.png" alt="Twitter" title="Twitter"></a>
-        </div>
-        <div class="container" id="linkedIn">
-            <a href="https://www.linkedin.com/in/juan-el%C3%ADas-fern%C3%A1ndez-fabra-53659345/" target="_blank"><img src="img/linkedin.png" alt="Google+" title="Google+"></a>
-        </div>
-        <div class="container" id="gMail">
-            <a href="mailto:juan.elias.fernandez@gmail.com" target="_blank"><img src="img/gmail.png" alt="Correo Electrónico" title="Correo Electrónico"></a>
+<!--Redes sociales y contacto-->
+        <div class="iconosredes row">
+            <div class="offset-4 col-1" >
+                <a href="https://www.facebook.com/juanelias.fernandezfabra" target="_blank"><img src="img/facebook.png" alt="Facebook" title="Facebook" class="img-fluid"></a>
+            </div>
+            <div class="col-1" >
+                <a href="https://twitter.com/juaneliasfdez" target="_blank"><img class="img-fluid" src="img/twitter.png" alt="Twitter" title="Twitter"></a>
+            </div>
+            <div class="col-1" >
+                <a href="https://www.linkedin.com/in/juan-el%C3%ADas-fern%C3%A1ndez-fabra-53659345/" target="_blank"><img src="img/linkedin.png" class="img-fluid" alt="Google+" title="Google+"></a>
+            </div>
+            <div class="col-1">
+                <a href="mailto:juan.elias.fernandez@gmail.com" target="_blank"><img src="img/gmail.png" alt="Correo Electrónico" class="img-fluid" title="Correo Electrónico"></a>
+            </div>
         </div>
     </div>
-</header>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <section>  
-    <div class="accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+</header>
+<!--Menú a tamaño móvil-->
+<section>
+    <br />
+    <div class="menuxs container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="menuxsbarra container offset-1 col-10 d-block d-sm-none">
+                    <ul class="nav nav-tabs d-block d-sm-none">
+                        <li class="active"><a data-toggle="tab" href="#xsformacion">Formación</a></li>
+                        <li><a data-toggle="tab" href="#xslenguajes">Lenguajes</a></li>
+                        <li><a data-toggle="tab" href="#xsredes">Redes</a></li>
+                        <li><a data-toggle="tab" href="#xsotros">Otros</a></li>
+                    </ul>
+                </div>
+<!--Contenidos a tamaño móvil-->
+                <div class="contenidosxs tab-content d-block d-sm-none">
+                    <div id="xsformacion" class="tab-pane fade in active">
+                        <p>Diplomado en ciencias empresariales por Florida Universitaria.<br />
+                        Técnico superior en administración de sistemas informáticos.</p>
+                    </div>
+                    <div id="xslenguajes" class="tab-pane fade">
+                        <p>C++<br />
+                            SQL<br />
+                            HTML 5<br />
+                            CSS 3<br />
+                            JavaScript<br />
+                            BASIC</p>
+                    </div>
+                    <div id="xsredes" class="tab-pane fade">
+                        <p>Manejo de servidor HTTP Apache bajo entorno Linux y Windows.<br />
+                        Manejo de servidor MySQL Server bajo entorno Windows.   </p>
+                    </div>
+                    <div id="xsotros" class="tab-pane fade">
+                        <p>Curso Programación de aplicaciones informáticas; 320 horas de duración, impartido por Centro de Estudios Codex, Valencia; subvencionado por el INEM.<br /> Realizado del 1 de diciembre de 2009 al 23 de febrero de 2010.</p>    
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!--Contenidos a tamaño grande-->
+
+<section>
+    <div class="accordion d-none d-sm-block" id="accordionEx" role="tablist" aria-multiselectable="true">
 
     <!-- Accordion card -->
     <div class="card">
@@ -144,25 +191,29 @@
     </div>
     </div>
 <!--/.Accordion wrapper-->
-</section>
-    
-<footer>Juan Elías Fernández Fabra, 2018. Iconos por <a href="http://designmodo.com/shop/" target="_blank">Designmodo</a></footer>
-    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</section>
+
+<!--Pie de página-->
+    
+<footer>&copy;Juan Elías Fernández, 2018. Iconos por <a href="http://designmodo.com/shop/" target="_blank">Designmodo</a></footer>
+    
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
 
 </html>
