@@ -99,18 +99,18 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: black;
+    background-color: navy;
 }
 
 #nombreGrande {
     font-family: 'Orbitron', sans-serif;
-    color: darkgray;
+    color: goldenrod;
     font-size: 4em;
 }
 
 #nombreMovil{
     font-family: 'Orbitron', sans-serif;
-    color: darkgray;
+    color: goldenrod;
     text-align: center;
     font-size: 2.5em;
 }*/
@@ -123,6 +123,9 @@ a img {
 .iconosredes a img {
     min-height: 20px!important;
     min-width: 20px!important; 
+}
+.card {
+    border: 0px;
 }
 
 .card-header{
@@ -150,14 +153,14 @@ a img {
     color: gainsboro;
 }
 
-.nav-item{
-   /* width: 4em;*/
+/*.nav-item{
+    width: 4em;
 }
 
 a.nav-link{
     color:gainsboro;
     font-size: 0.5em;
-}
+}*/
 
 div h5 {
     font-family: 'Play', sans-serif;
@@ -165,6 +168,11 @@ div h5 {
     color: gainsboro;
 }
 
+div h5:hover {
+    font-family: 'Play', sans-serif;
+    font-size: 1.5em;
+    color: goldenrod;
+}
 
 #collapseTwo ul {
     column-count:2;
@@ -194,6 +202,10 @@ div h5 {
 .menuxs a {
     text-decoration: none;
     color:gainsboro;
+}
+
+.menuxs a:hover{
+    color:goldenrod;
 }
 
 .contenidosxs {
