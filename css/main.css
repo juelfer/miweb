@@ -189,8 +189,8 @@ div h5:hover {
 
 .menuxs .nav li {
     float: left;
-    margin-right: 0.4em;
-    margin-left: 0.25em;
+    /*margin-right: 5%;
+    margin-left: 5%;*/
     font-size:0.75em;
 }
 
