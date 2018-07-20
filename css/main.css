@@ -100,6 +100,7 @@ textarea {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
 }
 
 #nombreGrande {
@@ -140,7 +141,6 @@ textarea {
 
 .card-header a:hover {
   text-decoration: none;
-  font-size: 2em;
 }
 
 .card-body ul li {
@@ -157,6 +157,7 @@ div h5 {
   font-family: 'Play', sans-serif;
   font-size: 1.5em;
   color: goldenrod;
+  font-weight: bold;
 }
 
 div h5:hover {
@@ -180,6 +181,7 @@ div h5:hover {
   float: left;
   font-size: 0.75em;
   transition-delay: 1.25s;
+  font-weight: bold;
 }
 
 .menuxsbarra {
@@ -190,6 +192,7 @@ div h5:hover {
 .menuxs a {
   text-decoration: none;
   color: goldenrod;
+  background-color: rgba(28, 19, 61, 0.5);
 }
 
 .menuxs a:hover {
@@ -199,10 +202,10 @@ div h5:hover {
 .contenidosxs {
   color: gainsboro;
   margin-left: 2.1em;
-  /*background-color: rgba(28, 19, 61, 0.5);*/
 }
 
 .contenidosxs a{
+    font-weight: bold;
     color:goldenrod;
 }
 
@@ -214,6 +217,11 @@ div h5:hover {
     color:goldenrod;
 }
 
+a.enlaceCuerpo:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -222,7 +230,6 @@ footer {
   padding-bottom: 6px;
   padding-top: 3px;
   text-align: center;
-  /*background-color: rgba(0, 0, 0, 0.50);*/
   color: gainsboro;
   font-size: 0.65em;
 }
