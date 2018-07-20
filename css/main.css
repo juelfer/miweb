@@ -81,7 +81,7 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browseºrupgrade {
+.browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
@@ -92,14 +92,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-  background-color: navy;
+
+
+.fondo {
+    background-image: url(fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #nombreGrande {
   font-family: 'Orbitron', sans-serif;
   color: goldenrod;
   font-size: 4em;
+  transition-delay: 1.25s;
 }
 
 #nombreMovil {
@@ -107,16 +114,13 @@ body {
   color: goldenrod;
   text-align: center;
   font-size: 2.5em;
+  transition-delay: 1.25s;
 }
 
-*/ a img {
-  width: 32px;
-  height: 32px;
-}
-
-.iconosredes a img {
+.iconosRedes a img {
   min-height: 20px !important;
   min-width: 20px !important;
+  transition-delay: 1.25s;
 }
 
 .card {
@@ -126,7 +130,7 @@ body {
 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: rgba(28, 19, 61, 0.5);
   width: 20em;
 }
 
@@ -146,12 +150,13 @@ body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.2em;
   color: gainsboro;
+  background-color: rgba(28, 19, 61, 0.5);
 }
 
 div h5 {
   font-family: 'Play', sans-serif;
   font-size: 1.5em;
-  color: gainsboro;
+  color: goldenrod;
 }
 
 div h5:hover {
@@ -173,19 +178,18 @@ div h5:hover {
 
 .menuxs .nav li {
   float: left;
-  /*margin-right: 5%;
-    margin-left: 5%;*/
   font-size: 0.75em;
+  transition-delay: 1.25s;
 }
 
 .menuxsbarra {
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: rgba(28, 19, 61, 0.5);
   height: 1.5em;
 }
 
 .menuxs a {
   text-decoration: none;
-  color: gainsboro;
+  color: goldenrod;
 }
 
 .menuxs a:hover {
@@ -195,6 +199,7 @@ div h5:hover {
 .contenidosxs {
   color: gainsboro;
   margin-left: 2.1em;
+  /*background-color: rgba(28, 19, 61, 0.5);*/
 }
 
 .contenidosxs a{
@@ -217,7 +222,7 @@ footer {
   padding-bottom: 6px;
   padding-top: 3px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.50);
+  /*background-color: rgba(0, 0, 0, 0.50);*/
   color: gainsboro;
   font-size: 0.65em;
 }
