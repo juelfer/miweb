@@ -211,7 +211,8 @@ div h5:hover {
 }
 
 #xslenguajes {
-  margin-left: 6em;
+  /*margin-left: 6em;*/
+  text-align: center;
 }
 
 .enlaceCuerpo{
