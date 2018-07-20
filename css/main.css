@@ -151,6 +151,7 @@ textarea {
   font-size: 1.2em;
   color: gainsboro;
   background-color: rgba(28, 19, 61, 0.5);
+  padding: 0.5em;
 }
 
 div h5 {
@@ -169,7 +170,7 @@ div h5:hover {
 #collapseThree ul {
   column-count: 2;
   list-style: none;
-  text-align: justify;
+  text-align: center;
 }
 
 .nav-tabs {
