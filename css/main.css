@@ -92,7 +92,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .fondo {
     background-image: url(https://media.giphy.com/media/OphJjMBC9AbEQ/giphy.gif);
